@@ -1,5 +1,4 @@
 // ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 
 class GridClass extends StatefulWidget {
@@ -90,7 +89,6 @@ class _GridClassState extends State<GridClass> {
                       Container(
                         padding: const EdgeInsets.all(10),
                         child: Text(
-                          //actionsTaken.elementAt(textIndex1)
                           (click1 == true) ? 'OFF' : "ON",
                           style: const TextStyle(fontSize: 30),
                         ),

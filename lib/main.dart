@@ -17,9 +17,6 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    // TextStyle(
-    //     color: Colors.grey, backgroundColor: Colors.redAccent, fontSize: 20);
-
     return Scaffold(
       appBar: AppBar(
         title: const Text("My Home"),
@@ -32,7 +29,6 @@ class _HomeState extends State<Home> {
             margin: const EdgeInsets.all(10),
             padding: const EdgeInsets.all(15),
             color: Colors.white,
-            //padding: EdgeInsets.all(2),
             child: Row(
               children: const [
                 Text("My Home",
