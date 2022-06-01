@@ -1,4 +1,4 @@
-import 'package:layoutass/Grid.dart';
+import './Grid.dart';
 import 'package:flutter/material.dart';
 
 void main() {
